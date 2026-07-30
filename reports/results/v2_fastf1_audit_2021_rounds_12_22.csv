@@ -1,0 +1,12 @@
+year,round,event_name,rainfall_records,eligible_transitions,selection_status
+2021,12,Belgian Grand Prix,244,0,no_wet_to_slick_transition
+2021,13,Dutch Grand Prix,0,0,no_rainfall_record
+2021,14,Italian Grand Prix,0,0,no_rainfall_record
+2021,15,Russian Grand Prix,16,0,no_wet_to_slick_transition
+2021,16,Turkish Grand Prix,0,0,no_rainfall_record
+2021,17,United States Grand Prix,0,0,no_rainfall_record
+2021,18,Mexico City Grand Prix,0,0,no_rainfall_record
+2021,19,São Paulo Grand Prix,0,0,no_rainfall_record
+2021,20,Qatar Grand Prix,3,0,no_wet_to_slick_transition
+2021,21,Saudi Arabian Grand Prix,0,0,no_rainfall_record
+2021,22,Abu Dhabi Grand Prix,0,0,no_rainfall_record

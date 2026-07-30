@@ -1,0 +1,37 @@
+name: Validate F1 Strategy Lab
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Check Python syntax
+        run: python -m compileall -q app src
+
+      - name: Run validation suite
+        run: python -m unittest discover -s tests -v
+
+      - name: Check both Streamlit entry points
+        run: |
+          python - <<'PY'
+          from streamlit.testing.v1 import AppTest
+
+          for app_path in ("app/streamlit_app.py", "app/portfolio_app.py"):
+              app = AppTest.from_file(app_path)
+              app.run(timeout=45)
+              assert not app.exception, [error.value for error in app.exception]
+
+          print("Both Streamlit entry points passed")
+          PY

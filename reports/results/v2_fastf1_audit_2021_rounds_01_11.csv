@@ -1,0 +1,12 @@
+year,round,event_name,rainfall_records,eligible_transitions,selection_status
+2021,1,Bahrain Grand Prix,0,0,no_rainfall_record
+2021,2,Emilia Romagna Grand Prix,66,19,candidate
+2021,3,Portuguese Grand Prix,0,0,no_rainfall_record
+2021,4,Spanish Grand Prix,0,0,no_rainfall_record
+2021,5,Monaco Grand Prix,0,0,no_rainfall_record
+2021,6,Azerbaijan Grand Prix,0,0,no_rainfall_record
+2021,7,French Grand Prix,0,0,no_rainfall_record
+2021,8,Styrian Grand Prix,0,0,no_rainfall_record
+2021,9,Austrian Grand Prix,6,0,no_wet_to_slick_transition
+2021,10,British Grand Prix,0,0,no_rainfall_record
+2021,11,Hungarian Grand Prix,58,14,candidate

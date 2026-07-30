@@ -1,0 +1,54 @@
+year,country,driver,actual_transition_lap,wet_stint_laps,to_compound,rainfall_only_window_start,dry_track_confirmation_lap,dry_track_confirmation_source,public_signal_window_start,public_signal_window_end,public_signal_error_laps,event_class
+2025,Australia,ALB,33,30,MEDIUM,,12,DRS 重新启用,12,12,-21,sustained_wet_to_dry
+2025,Australia,ANT,33,30,HARD,,12,DRS 重新启用,12,12,-21,sustained_wet_to_dry
+2025,Australia,BEA,4,1,MEDIUM,,12,DRS 重新启用,12,12,8,short_wet_stint
+2025,Australia,BOR,4,1,MEDIUM,,12,DRS 重新启用,12,12,8,short_wet_stint
+2025,Australia,GAS,33,30,HARD,,12,DRS 重新启用,12,12,-21,sustained_wet_to_dry
+2025,Australia,HAM,33,30,HARD,,12,DRS 重新启用,12,12,-21,sustained_wet_to_dry
+2025,Australia,HUL,33,30,MEDIUM,,12,DRS 重新启用,12,12,-21,sustained_wet_to_dry
+2025,Australia,LAW,33,30,MEDIUM,,12,DRS 重新启用,12,12,-21,sustained_wet_to_dry
+2025,Australia,LEC,34,31,HARD,,12,DRS 重新启用,12,12,-22,sustained_wet_to_dry
+2025,Australia,NOR,34,31,HARD,,12,DRS 重新启用,12,12,-22,sustained_wet_to_dry
+2025,Australia,OCO,39,36,MEDIUM,,12,DRS 重新启用,12,12,-27,sustained_wet_to_dry
+2025,Australia,PIA,34,31,HARD,,12,DRS 重新启用,12,12,-22,sustained_wet_to_dry
+2025,Australia,RUS,34,31,HARD,,12,DRS 重新启用,12,12,-22,sustained_wet_to_dry
+2025,Australia,STR,33,30,HARD,,12,DRS 重新启用,12,12,-21,sustained_wet_to_dry
+2025,Australia,TSU,33,30,MEDIUM,,12,DRS 重新启用,12,12,-21,sustained_wet_to_dry
+2025,Australia,VER,34,31,MEDIUM,,12,DRS 重新启用,12,12,-22,sustained_wet_to_dry
+2025,United Kingdom,ALB,43,30,MEDIUM,,34,正常抓地提示,34,34,-9,sustained_wet_to_dry
+2025,United Kingdom,ALO,38,26,MEDIUM,,34,正常抓地提示,34,34,-4,sustained_wet_to_dry
+2025,United Kingdom,ANT,3,2,HARD,,8,正常抓地提示,8,8,5,short_wet_stint
+2025,United Kingdom,BEA,42,31,MEDIUM,,34,正常抓地提示,34,34,-8,sustained_wet_to_dry
+2025,United Kingdom,GAS,42,30,MEDIUM,,34,正常抓地提示,34,34,-8,sustained_wet_to_dry
+2025,United Kingdom,HAM,42,30,SOFT,,34,正常抓地提示,34,34,-8,sustained_wet_to_dry
+2025,United Kingdom,HUL,43,33,MEDIUM,,34,正常抓地提示,34,34,-9,sustained_wet_to_dry
+2025,United Kingdom,LEC,43,32,SOFT,,34,正常抓地提示,34,34,-9,sustained_wet_to_dry
+2025,United Kingdom,NOR,45,33,MEDIUM,,34,正常抓地提示,34,34,-11,sustained_wet_to_dry
+2025,United Kingdom,OCO,43,24,MEDIUM,,34,正常抓地提示,34,34,-9,sustained_wet_to_dry
+2025,United Kingdom,PIA,44,32,MEDIUM,,34,正常抓地提示,34,34,-10,sustained_wet_to_dry
+2025,United Kingdom,RUS,39,28,HARD,,34,正常抓地提示,34,34,-5,sustained_wet_to_dry
+2025,United Kingdom,SAI,42,30,MEDIUM,,34,正常抓地提示,34,34,-8,sustained_wet_to_dry
+2025,United Kingdom,STR,7,6,SOFT,,8,正常抓地提示,8,8,1,sustained_wet_to_dry
+2025,United Kingdom,STR,42,31,SOFT,,34,正常抓地提示,34,34,-8,sustained_wet_to_dry
+2025,United Kingdom,TSU,42,30,MEDIUM,,34,正常抓地提示,34,34,-8,sustained_wet_to_dry
+2025,United Kingdom,VER,42,30,MEDIUM,,34,正常抓地提示,34,34,-8,sustained_wet_to_dry
+2025,Belgium,ALB,2,1,MEDIUM,,13,正常抓地提示,13,13,11,short_wet_stint
+2025,Belgium,ALO,2,1,MEDIUM,,13,正常抓地提示,13,13,11,short_wet_stint
+2025,Belgium,ANT,2,1,MEDIUM,,13,正常抓地提示,13,13,11,short_wet_stint
+2025,Belgium,BEA,2,1,MEDIUM,,13,正常抓地提示,13,13,11,short_wet_stint
+2025,Belgium,BOR,2,1,MEDIUM,,13,正常抓地提示,13,13,11,short_wet_stint
+2025,Belgium,COL,2,1,MEDIUM,,13,正常抓地提示,13,13,11,short_wet_stint
+2025,Belgium,GAS,2,1,MEDIUM,,13,正常抓地提示,13,13,11,short_wet_stint
+2025,Belgium,HAD,2,1,MEDIUM,,13,正常抓地提示,13,13,11,short_wet_stint
+2025,Belgium,HAM,2,1,MEDIUM,,13,正常抓地提示,13,13,11,short_wet_stint
+2025,Belgium,HUL,2,1,MEDIUM,,13,正常抓地提示,13,13,11,short_wet_stint
+2025,Belgium,LAW,2,1,MEDIUM,,13,正常抓地提示,13,13,11,short_wet_stint
+2025,Belgium,LEC,2,1,MEDIUM,,13,正常抓地提示,13,13,11,short_wet_stint
+2025,Belgium,NOR,2,1,HARD,,13,正常抓地提示,13,13,11,short_wet_stint
+2025,Belgium,OCO,2,1,MEDIUM,,13,正常抓地提示,13,13,11,short_wet_stint
+2025,Belgium,PIA,2,1,MEDIUM,,13,正常抓地提示,13,13,11,short_wet_stint
+2025,Belgium,RUS,2,1,MEDIUM,,13,正常抓地提示,13,13,11,short_wet_stint
+2025,Belgium,SAI,2,1,MEDIUM,,13,正常抓地提示,13,13,11,short_wet_stint
+2025,Belgium,STR,2,1,MEDIUM,,13,正常抓地提示,13,13,11,short_wet_stint
+2025,Belgium,TSU,2,1,MEDIUM,,13,正常抓地提示,13,13,11,short_wet_stint
+2025,Belgium,VER,2,1,MEDIUM,,13,正常抓地提示,13,13,11,short_wet_stint

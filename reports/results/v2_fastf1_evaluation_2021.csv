@@ -1,0 +1,34 @@
+source,year,country,driver,actual_transition_lap,wet_stint_laps,recent_rain_reset_lap,rain_episodes_before_transition,nearby_race_control_phases,event_quality,state_machine_outcome,signal_eligible,rainfall_only_window_start,dry_track_confirmation_lap,dry_track_confirmation_source,public_signal_error_laps
+FastF1,2021,Emilia Romagna,ALO,29,28,15,1,safety_car,race_control_adjacent,abstain,False,17,30,DRS 重新启用,
+FastF1,2021,Emilia Romagna,BOT,29,28,16,1,safety_car,race_control_adjacent,abstain,False,17,30,DRS 重新启用,
+FastF1,2021,Emilia Romagna,GAS,27,12,15,1,,single_rain_phase,signal,True,17,30,DRS 重新启用,3.0
+FastF1,2021,Emilia Romagna,GIO,28,27,16,1,,single_rain_phase,signal,True,17,30,DRS 重新启用,2.0
+FastF1,2021,Emilia Romagna,HAM,29,28,16,1,safety_car,race_control_adjacent,abstain,False,18,30,DRS 重新启用,
+FastF1,2021,Emilia Romagna,LEC,29,28,16,1,safety_car,race_control_adjacent,abstain,False,18,30,DRS 重新启用,
+FastF1,2021,Emilia Romagna,MAZ,24,11,15,1,,single_rain_phase,signal,True,16,30,DRS 重新启用,6.0
+FastF1,2021,Emilia Romagna,MSC,22,16,15,1,,single_rain_phase,signal,True,16,30,DRS 重新启用,8.0
+FastF1,2021,Emilia Romagna,NOR,29,28,16,1,safety_car,race_control_adjacent,abstain,False,18,30,DRS 重新启用,
+FastF1,2021,Emilia Romagna,OCO,28,26,15,1,,single_rain_phase,signal,True,17,30,DRS 重新启用,2.0
+FastF1,2021,Emilia Romagna,PER,29,28,16,1,safety_car,race_control_adjacent,abstain,False,18,30,DRS 重新启用,
+FastF1,2021,Emilia Romagna,RAI,27,26,16,1,,single_rain_phase,signal,True,17,30,DRS 重新启用,3.0
+FastF1,2021,Emilia Romagna,RIC,28,27,16,1,,single_rain_phase,signal,True,18,30,DRS 重新启用,2.0
+FastF1,2021,Emilia Romagna,RUS,27,26,16,1,,single_rain_phase,signal,True,17,30,DRS 重新启用,3.0
+FastF1,2021,Emilia Romagna,SAI,28,27,16,1,,single_rain_phase,signal,True,18,30,DRS 重新启用,2.0
+FastF1,2021,Emilia Romagna,STR,28,27,16,1,,single_rain_phase,signal,True,17,30,DRS 重新启用,2.0
+FastF1,2021,Emilia Romagna,TSU,26,25,16,1,,single_rain_phase,signal,True,17,30,DRS 重新启用,4.0
+FastF1,2021,Emilia Romagna,VER,28,27,16,1,,single_rain_phase,signal,True,18,30,DRS 重新启用,2.0
+FastF1,2021,Emilia Romagna,VET,21,17,16,1,,single_rain_phase,signal,True,17,30,DRS 重新启用,9.0
+FastF1,2021,Hungary,ALO,4,1,3,1,red_flag|safety_car,start_or_restart,abstain,False,4,11,正常抓地提示,
+FastF1,2021,Hungary,GAS,4,1,3,1,red_flag|safety_car,start_or_restart,abstain,False,4,11,正常抓地提示,
+FastF1,2021,Hungary,GIO,4,1,3,1,red_flag|safety_car,start_or_restart,abstain,False,4,11,正常抓地提示,
+FastF1,2021,Hungary,HAM,5,2,3,1,red_flag,start_or_restart,abstain,False,4,11,正常抓地提示,
+FastF1,2021,Hungary,LAT,4,1,3,1,red_flag|safety_car,start_or_restart,abstain,False,4,11,正常抓地提示,
+FastF1,2021,Hungary,MSC,4,1,3,1,red_flag|safety_car,start_or_restart,abstain,False,4,11,正常抓地提示,
+FastF1,2021,Hungary,OCO,4,1,3,1,red_flag|safety_car,start_or_restart,abstain,False,4,11,正常抓地提示,
+FastF1,2021,Hungary,RAI,4,1,3,1,red_flag|safety_car,start_or_restart,abstain,False,4,11,正常抓地提示,
+FastF1,2021,Hungary,RIC,4,1,3,1,red_flag|safety_car,start_or_restart,abstain,False,4,11,正常抓地提示,
+FastF1,2021,Hungary,RUS,4,1,3,1,red_flag|safety_car,start_or_restart,abstain,False,4,11,正常抓地提示,
+FastF1,2021,Hungary,SAI,4,1,3,1,red_flag|safety_car,start_or_restart,abstain,False,4,11,正常抓地提示,
+FastF1,2021,Hungary,TSU,4,1,3,1,red_flag|safety_car,start_or_restart,abstain,False,4,11,正常抓地提示,
+FastF1,2021,Hungary,VER,4,1,3,1,red_flag|safety_car,start_or_restart,abstain,False,4,11,正常抓地提示,
+FastF1,2021,Hungary,VET,4,1,3,1,red_flag|safety_car,start_or_restart,abstain,False,4,11,正常抓地提示,

@@ -1,0 +1,54 @@
+year,country,driver,actual_transition_lap,wet_stint_laps,recent_rain_reset_lap,rainfall_only_window_start,dry_track_confirmation_lap,dry_track_confirmation_source,public_signal_error_laps
+2025,Australia,ALB,33,30,26,,43,DRS 重新启用,10
+2025,Australia,ANT,33,30,26,,43,DRS 重新启用,10
+2025,Australia,BEA,4,1,4,,12,DRS 重新启用,8
+2025,Australia,BOR,4,1,4,,12,DRS 重新启用,8
+2025,Australia,GAS,33,30,26,,43,DRS 重新启用,10
+2025,Australia,HAM,33,30,26,,43,DRS 重新启用,10
+2025,Australia,HUL,33,30,26,,43,DRS 重新启用,10
+2025,Australia,LAW,33,30,26,,43,DRS 重新启用,10
+2025,Australia,LEC,34,31,26,,43,DRS 重新启用,9
+2025,Australia,NOR,34,31,27,,43,DRS 重新启用,9
+2025,Australia,OCO,39,36,26,,43,DRS 重新启用,4
+2025,Australia,PIA,34,31,27,,43,DRS 重新启用,9
+2025,Australia,RUS,34,31,26,,43,DRS 重新启用,9
+2025,Australia,STR,33,30,26,,43,DRS 重新启用,10
+2025,Australia,TSU,33,30,26,,43,DRS 重新启用,10
+2025,Australia,VER,34,31,26,,43,DRS 重新启用,9
+2025,United Kingdom,ALB,43,30,15,,34,正常抓地提示,-9
+2025,United Kingdom,ALO,38,26,15,,34,正常抓地提示,-4
+2025,United Kingdom,ANT,3,2,1,,8,正常抓地提示,5
+2025,United Kingdom,BEA,42,31,15,,34,正常抓地提示,-8
+2025,United Kingdom,GAS,42,30,15,,34,正常抓地提示,-8
+2025,United Kingdom,HAM,42,30,15,,34,正常抓地提示,-8
+2025,United Kingdom,HUL,43,33,15,,34,正常抓地提示,-9
+2025,United Kingdom,LEC,43,32,15,,34,正常抓地提示,-9
+2025,United Kingdom,NOR,45,33,15,,34,正常抓地提示,-11
+2025,United Kingdom,OCO,43,24,19,,34,正常抓地提示,-9
+2025,United Kingdom,PIA,44,32,15,,34,正常抓地提示,-10
+2025,United Kingdom,RUS,39,28,15,,34,正常抓地提示,-5
+2025,United Kingdom,SAI,42,30,15,,34,正常抓地提示,-8
+2025,United Kingdom,STR,7,6,1,,8,正常抓地提示,1
+2025,United Kingdom,STR,42,31,15,,34,正常抓地提示,-8
+2025,United Kingdom,TSU,42,30,15,,34,正常抓地提示,-8
+2025,United Kingdom,VER,42,30,15,,34,正常抓地提示,-8
+2025,Belgium,ALB,2,1,1,,13,正常抓地提示,11
+2025,Belgium,ALO,2,1,1,,13,正常抓地提示,11
+2025,Belgium,ANT,2,1,1,,13,正常抓地提示,11
+2025,Belgium,BEA,2,1,1,,13,正常抓地提示,11
+2025,Belgium,BOR,2,1,1,,13,正常抓地提示,11
+2025,Belgium,COL,2,1,1,,13,正常抓地提示,11
+2025,Belgium,GAS,2,1,1,,13,正常抓地提示,11
+2025,Belgium,HAD,2,1,1,,13,正常抓地提示,11
+2025,Belgium,HAM,2,1,1,,13,正常抓地提示,11
+2025,Belgium,HUL,2,1,1,,13,正常抓地提示,11
+2025,Belgium,LAW,2,1,1,,13,正常抓地提示,11
+2025,Belgium,LEC,2,1,1,,13,正常抓地提示,11
+2025,Belgium,NOR,2,1,1,,13,正常抓地提示,11
+2025,Belgium,OCO,2,1,1,,13,正常抓地提示,11
+2025,Belgium,PIA,2,1,1,,13,正常抓地提示,11
+2025,Belgium,RUS,2,1,1,,13,正常抓地提示,11
+2025,Belgium,SAI,2,1,1,,13,正常抓地提示,11
+2025,Belgium,STR,2,1,1,,13,正常抓地提示,11
+2025,Belgium,TSU,2,1,1,,13,正常抓地提示,11
+2025,Belgium,VER,2,1,1,,13,正常抓地提示,11

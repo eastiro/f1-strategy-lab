@@ -1,0 +1,9 @@
+year,round,event_name,rainfall_records,eligible_transitions,selection_status,detail
+2020,10,Russian Grand Prix,0.0,0.0,no_rainfall_record,
+2020,11,Eifel Grand Prix,2.0,0.0,no_wet_to_slick_transition,
+2020,12,Portuguese Grand Prix,,,weather_unavailable,DataNotLoadedError
+2020,13,Emilia Romagna Grand Prix,,,weather_unavailable,DataNotLoadedError
+2020,14,Turkish Grand Prix,6.0,0.0,no_wet_to_slick_transition,
+2020,15,Bahrain Grand Prix,0.0,0.0,no_rainfall_record,
+2020,16,Sakhir Grand Prix,0.0,0.0,no_rainfall_record,
+2020,17,Abu Dhabi Grand Prix,,,weather_unavailable,DataNotLoadedError

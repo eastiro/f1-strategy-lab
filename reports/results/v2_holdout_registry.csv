@@ -1,0 +1,4 @@
+case_id,race,year,country,validation_split,eligible_transitions,status,notes
+2025_australia,Australian Grand Prix,2025,Australia,challenge_set,16,evaluated_v23,"All observed wet-to-slick transitions retained; V2.3 public signal did not generalize."
+2025_united_kingdom,British Grand Prix,2025,United Kingdom,challenge_set,17,evaluated_v23,"All observed wet-to-slick transitions retained; multi-phase rain and safety-car context."
+2025_belgium,Belgian Grand Prix,2025,Belgium,challenge_set,20,evaluated_v23,"All observed wet-to-slick transitions retained; start/restart-heavy race context."

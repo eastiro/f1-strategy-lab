@@ -1,0 +1,34 @@
+season,race,event_name,driver,source,exposure_label,transition_lap,first_slick_lap,wet_stint_laps,rain_episodes_before_transition,nearby_race_control_phases,event_quality,state_machine_outcome,signal_eligible,public_signal_error_laps,signal_lap,signed_error_laps,absolute_error_laps,rainfall_only_window_start,dry_track_confirmation_lap,dry_track_confirmation_source,bundle_slug,caveat,pit_service_lap,timing_anchor_lap,timing_anchor_source,reporting_signed_error_laps,reporting_absolute_error_laps
+2021,Emilia Romagna,Emilia Romagna Grand Prix,ALO,FastF1,previously audited,29,29,28,1,safety_car,race_control_adjacent,abstain,False,,,,,17,30,DRS 重新启用,2021_emilia_romagna,,28.0,28.0,pit_service,,
+2021,Emilia Romagna,Emilia Romagna Grand Prix,BOT,FastF1,previously audited,29,29,28,1,safety_car,race_control_adjacent,abstain,False,,,,,17,30,DRS 重新启用,2021_emilia_romagna,,28.0,28.0,pit_service,,
+2021,Emilia Romagna,Emilia Romagna Grand Prix,GAS,FastF1,previously audited,27,27,12,1,,single_rain_phase,signal,True,3.0,30.0,3.0,3.0,17,30,DRS 重新启用,2021_emilia_romagna,,26.0,26.0,pit_service,4.0,4.0
+2021,Emilia Romagna,Emilia Romagna Grand Prix,GIO,FastF1,previously audited,28,28,27,1,,single_rain_phase,signal,True,2.0,30.0,2.0,2.0,17,30,DRS 重新启用,2021_emilia_romagna,,27.0,27.0,pit_service,3.0,3.0
+2021,Emilia Romagna,Emilia Romagna Grand Prix,HAM,FastF1,previously audited,29,29,28,1,safety_car,race_control_adjacent,abstain,False,,,,,18,30,DRS 重新启用,2021_emilia_romagna,,28.0,28.0,pit_service,,
+2021,Emilia Romagna,Emilia Romagna Grand Prix,LEC,FastF1,previously audited,29,29,28,1,safety_car,race_control_adjacent,abstain,False,,,,,18,30,DRS 重新启用,2021_emilia_romagna,,28.0,28.0,pit_service,,
+2021,Emilia Romagna,Emilia Romagna Grand Prix,MAZ,FastF1,previously audited,24,24,11,1,,single_rain_phase,signal,True,6.0,30.0,6.0,6.0,16,30,DRS 重新启用,2021_emilia_romagna,,23.0,23.0,pit_service,7.0,7.0
+2021,Emilia Romagna,Emilia Romagna Grand Prix,MSC,FastF1,previously audited,22,22,16,1,,single_rain_phase,signal,True,8.0,30.0,8.0,8.0,16,30,DRS 重新启用,2021_emilia_romagna,,21.0,21.0,pit_service,9.0,9.0
+2021,Emilia Romagna,Emilia Romagna Grand Prix,NOR,FastF1,previously audited,29,29,28,1,safety_car,race_control_adjacent,abstain,False,,,,,18,30,DRS 重新启用,2021_emilia_romagna,,28.0,28.0,pit_service,,
+2021,Emilia Romagna,Emilia Romagna Grand Prix,OCO,FastF1,previously audited,28,28,26,1,,single_rain_phase,signal,True,2.0,30.0,2.0,2.0,17,30,DRS 重新启用,2021_emilia_romagna,,27.0,27.0,pit_service,3.0,3.0
+2021,Emilia Romagna,Emilia Romagna Grand Prix,PER,FastF1,previously audited,29,29,28,1,safety_car,race_control_adjacent,abstain,False,,,,,18,30,DRS 重新启用,2021_emilia_romagna,,28.0,28.0,pit_service,,
+2021,Emilia Romagna,Emilia Romagna Grand Prix,RAI,FastF1,previously audited,27,27,26,1,,single_rain_phase,signal,True,3.0,30.0,3.0,3.0,17,30,DRS 重新启用,2021_emilia_romagna,,26.0,26.0,pit_service,4.0,4.0
+2021,Emilia Romagna,Emilia Romagna Grand Prix,RIC,FastF1,previously audited,28,28,27,1,,single_rain_phase,signal,True,2.0,30.0,2.0,2.0,18,30,DRS 重新启用,2021_emilia_romagna,,27.0,27.0,pit_service,3.0,3.0
+2021,Emilia Romagna,Emilia Romagna Grand Prix,RUS,FastF1,previously audited,27,27,26,1,,single_rain_phase,signal,True,3.0,30.0,3.0,3.0,17,30,DRS 重新启用,2021_emilia_romagna,,26.0,26.0,pit_service,4.0,4.0
+2021,Emilia Romagna,Emilia Romagna Grand Prix,SAI,FastF1,previously audited,28,28,27,1,,single_rain_phase,signal,True,2.0,30.0,2.0,2.0,18,30,DRS 重新启用,2021_emilia_romagna,,27.0,27.0,pit_service,3.0,3.0
+2021,Emilia Romagna,Emilia Romagna Grand Prix,STR,FastF1,previously audited,28,28,27,1,,single_rain_phase,signal,True,2.0,30.0,2.0,2.0,17,30,DRS 重新启用,2021_emilia_romagna,,27.0,27.0,pit_service,3.0,3.0
+2021,Emilia Romagna,Emilia Romagna Grand Prix,TSU,FastF1,previously audited,26,26,25,1,,single_rain_phase,signal,True,4.0,30.0,4.0,4.0,17,30,DRS 重新启用,2021_emilia_romagna,,25.0,25.0,pit_service,5.0,5.0
+2021,Emilia Romagna,Emilia Romagna Grand Prix,VER,FastF1,previously audited,28,28,27,1,,single_rain_phase,signal,True,2.0,30.0,2.0,2.0,18,30,DRS 重新启用,2021_emilia_romagna,,27.0,27.0,pit_service,3.0,3.0
+2021,Emilia Romagna,Emilia Romagna Grand Prix,VET,FastF1,previously audited,21,21,17,1,,single_rain_phase,signal,True,9.0,30.0,9.0,9.0,17,30,DRS 重新启用,2021_emilia_romagna,,20.0,20.0,pit_service,10.0,10.0
+2021,Hungary,Hungarian Grand Prix,ALO,FastF1,previously audited,4,4,1,1,red_flag|safety_car,start_or_restart,abstain,False,,,,,4,11,正常抓地提示,2021_hungary,,3.0,3.0,pit_service,,
+2021,Hungary,Hungarian Grand Prix,GAS,FastF1,previously audited,4,4,1,1,red_flag|safety_car,start_or_restart,abstain,False,,,,,4,11,正常抓地提示,2021_hungary,,3.0,3.0,pit_service,,
+2021,Hungary,Hungarian Grand Prix,GIO,FastF1,previously audited,4,4,1,1,red_flag|safety_car,start_or_restart,abstain,False,,,,,4,11,正常抓地提示,2021_hungary,,3.0,3.0,pit_service,,
+2021,Hungary,Hungarian Grand Prix,HAM,FastF1,previously audited,5,5,2,1,red_flag,start_or_restart,abstain,False,,,,,4,11,正常抓地提示,2021_hungary,,4.0,4.0,pit_service,,
+2021,Hungary,Hungarian Grand Prix,LAT,FastF1,previously audited,4,4,1,1,red_flag|safety_car,start_or_restart,abstain,False,,,,,4,11,正常抓地提示,2021_hungary,,3.0,3.0,pit_service,,
+2021,Hungary,Hungarian Grand Prix,MSC,FastF1,previously audited,4,4,1,1,red_flag|safety_car,start_or_restart,abstain,False,,,,,4,11,正常抓地提示,2021_hungary,,3.0,3.0,pit_service,,
+2021,Hungary,Hungarian Grand Prix,OCO,FastF1,previously audited,4,4,1,1,red_flag|safety_car,start_or_restart,abstain,False,,,,,4,11,正常抓地提示,2021_hungary,,3.0,3.0,pit_service,,
+2021,Hungary,Hungarian Grand Prix,RAI,FastF1,previously audited,4,4,1,1,red_flag|safety_car,start_or_restart,abstain,False,,,,,4,11,正常抓地提示,2021_hungary,,3.0,3.0,pit_service,,
+2021,Hungary,Hungarian Grand Prix,RIC,FastF1,previously audited,4,4,1,1,red_flag|safety_car,start_or_restart,abstain,False,,,,,4,11,正常抓地提示,2021_hungary,,3.0,3.0,pit_service,,
+2021,Hungary,Hungarian Grand Prix,RUS,FastF1,previously audited,4,4,1,1,red_flag|safety_car,start_or_restart,abstain,False,,,,,4,11,正常抓地提示,2021_hungary,,3.0,3.0,pit_service,,
+2021,Hungary,Hungarian Grand Prix,SAI,FastF1,previously audited,4,4,1,1,red_flag|safety_car,start_or_restart,abstain,False,,,,,4,11,正常抓地提示,2021_hungary,,3.0,3.0,pit_service,,
+2021,Hungary,Hungarian Grand Prix,TSU,FastF1,previously audited,4,4,1,1,red_flag|safety_car,start_or_restart,abstain,False,,,,,4,11,正常抓地提示,2021_hungary,,3.0,3.0,pit_service,,
+2021,Hungary,Hungarian Grand Prix,VER,FastF1,previously audited,4,4,1,1,red_flag|safety_car,start_or_restart,abstain,False,,,,,4,11,正常抓地提示,2021_hungary,,3.0,3.0,pit_service,,
+2021,Hungary,Hungarian Grand Prix,VET,FastF1,previously audited,4,4,1,1,red_flag|safety_car,start_or_restart,abstain,False,,,,,4,11,正常抓地提示,2021_hungary,,3.0,3.0,pit_service,,

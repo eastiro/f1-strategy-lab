@@ -1,0 +1,10 @@
+year,round,event_name,rainfall_records,eligible_transitions,selection_status,detail
+2020,1,Austrian Grand Prix,0,0,no_rainfall_record,
+2020,2,Styrian Grand Prix,2,0,no_wet_to_slick_transition,
+2020,3,Hungarian Grand Prix,2,0,timing_laps_unavailable,DataNotLoadedError
+2020,4,British Grand Prix,0,0,no_rainfall_record,
+2020,5,70th Anniversary Grand Prix,0,0,no_rainfall_record,
+2020,6,Spanish Grand Prix,0,0,no_rainfall_record,
+2020,7,Belgian Grand Prix,0,0,no_rainfall_record,
+2020,8,Italian Grand Prix,0,0,no_rainfall_record,
+2020,9,Tuscan Grand Prix,0,0,no_rainfall_record,

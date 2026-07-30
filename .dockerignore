@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/
+reports/figures/
+*.log
+.workbuddy/
+tasks/external-agent/
+reports/review/
+reports/presentation/
+docs/images/
+PROJECT_STATE.md
+REVIEWER_SYNC.md
+product_features.md
+_fix_framing.py

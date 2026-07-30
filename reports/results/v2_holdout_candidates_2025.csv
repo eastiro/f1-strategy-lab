@@ -1,0 +1,4 @@
+year,country,meeting_name,date_start,session_key,rainfall_records,eligible_transitions,validation_split
+2025,Australia,,2025-03-16T04:00:00+00:00,9693,58,16,holdout_candidate
+2025,United Kingdom,,2025-07-06T14:00:00+00:00,9947,28,17,holdout_candidate
+2025,Belgium,,2025-07-27T13:00:00+00:00,9939,102,20,holdout_candidate
