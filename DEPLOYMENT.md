@@ -3,6 +3,9 @@
 The public V4 application is `app/streamlit_app.py`. It is a shareable,
 interactive research case study rather than a live strategy service.
 
+Current public deployment:
+[f1-strategy-lab-dzqqe3ga9salsqhshfnsfl.streamlit.app](https://f1-strategy-lab-dzqqe3ga9salsqhshfnsfl.streamlit.app/)
+
 ## Recommended: Streamlit Community Cloud
 
 1. Push the project to a GitHub repository.

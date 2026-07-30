@@ -10,6 +10,8 @@ whether public race signals can reliably support the same decision across races.
 The interface is Chinese-first. This README provides the short English research
 story for reviewers.
 
+**Live app:** [f1-strategy-lab-dzqqe3ga9salsqhshfnsfl.streamlit.app](https://f1-strategy-lab-dzqqe3ga9salsqhshfnsfl.streamlit.app/)
+
 ## Final Findings
 
 ### Module 1: 2024 British GP strategy sandbox

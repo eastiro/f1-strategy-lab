@@ -803,7 +803,7 @@ conclusion_tab.caption(
 conclusion_tab.subheader("这点差距从哪里来？（当前赛后重建）")
 conclusion_tab.info(
     "本区块解释的是「当前重建下表现最好的候选方案」相对 Norris 第 "
-    f"{reference_final_stint.start_lap} 圈换{reference_compound_label}胎基准的差距；"
+    f"{reference_final_stint.start_lap} 圈换{reference_compound_label}基准的差距；"
     "它不等同于上方按三种干燥设定排序的「最接近稳健」方案，且不代表真实比赛因果。"
 )
 if current_scenario_reference_laps is not None and current_scenario_candidate_laps:
