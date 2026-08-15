@@ -1,5 +1,10 @@
 # F1 Strategy Lab
 
+![Python](https://img.shields.io/badge/python-3.12+-blue)
+![Tests](https://img.shields.io/badge/tests-148%20passed-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Streamlit](https://img.shields.io/badge/streamlit-live-red)
+
 An explainable, public-data Formula 1 strategy research project.
 
 F1 Strategy Lab began with one narrow question: could a different final

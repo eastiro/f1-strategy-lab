@@ -1,0 +1,59 @@
+[project]
+name = "f1-strategy-lab"
+version = "4.0.0"
+description = "An explainable, public-data Formula 1 strategy research project"
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+authors = [
+    {name = "eastiro", email = "eastiro@users.noreply.github.com"}
+]
+dependencies = [
+    "pandas>=2.2,<3",
+    "numpy>=2.0,<3",
+    "plotly>=5.22,<7",
+    "streamlit>=1.36,<2",
+    "requests>=2.32,<3",
+    "fastf1>=3.8,<4",
+]
+
+[project.urls]
+Homepage = "https://f1-strategy-lab-dzqqe3ga9salsqhshfnsfl.streamlit.app"
+Repository = "https://github.com/eastiro/f1-strategy-lab"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-v"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "F",   # pyflakes
+    "I",   # isort (import sorting)
+    "N",   # pep8-naming
+    "W",   # pycodestyle warnings
+]
+ignore = [
+    "E501",  # line-too-long (handled by line-length)
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["F401", "F811"]
+
+[tool.coverage.run]
+source = ["src"]
+omit = ["tests/*", ".venv/*"]
+
+[tool.coverage.report]
+precision = 2
+show_missing = true
+skip_covered = false
