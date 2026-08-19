@@ -1,7 +1,7 @@
 # F1 Strategy Lab
 
 ![Python](https://img.shields.io/badge/python-3.12+-blue)
-![Tests](https://img.shields.io/badge/tests-148%20passed-brightgreen)
+![CI](https://github.com/eastiro/f1-strategy-lab/actions/workflows/validate.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Streamlit](https://img.shields.io/badge/streamlit-live-red)
 
