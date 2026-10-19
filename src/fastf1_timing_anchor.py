@@ -33,10 +33,9 @@ independent pit evidence for an event, the event stays in the data with
 
 from __future__ import annotations
 
-import pandas as pd
-
 import fastf1
 import fastf1.req as _fastf1_req
+import pandas as pd
 import requests as _requests
 
 from .config import DATA_DIR

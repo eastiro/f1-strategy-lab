@@ -6,7 +6,6 @@ import pandas as pd
 
 from .weather_timing import prepare_driver_lap_timing
 
-
 COMPOUND_BASE_DELTA = {
     "SOFT": -0.30,
     "MEDIUM": 0.0,

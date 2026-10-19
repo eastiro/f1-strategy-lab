@@ -6,7 +6,6 @@ import plotly.graph_objects as go
 import plotly.io as pio
 from plotly.subplots import make_subplots
 
-
 F1_FONT_STACK = "Inter, SF Pro Display, Segoe UI, Arial, sans-serif"
 LAB_COLORS = {
     "ink": "#1d252e",
@@ -958,6 +957,18 @@ def plot_reliability_event_map(events: pd.DataFrame) -> go.Figure:
     )
     data["error_plot"] = data["public_signal_error_laps"].fillna(0.0)
     data.loc[data["outcome"] == "abstain", "error_plot"] = 0.0
+    reason_labels = {
+        "race_control_adjacent": "赛会控制相邻",
+        "multi_rain_phase": "多阶段降雨",
+        "start_or_restart": "起步/重启相邻",
+        "clean_or_other": "单阶段或其他",
+    }
+    # The hover template is the only place a reader sees why an event was
+    # flagged, so map the internal enum to its display label instead of
+    # leaking raw keys such as ``race_control_adjacent`` into the tooltip.
+    data["reason_label"] = (
+        data["reason_group"].map(reason_labels).fillna(data["reason_group"].astype(str))
+    )
     outcome_labels = {
         "signal_accurate": "已发信号：±2 圈内",
         "signal_inaccurate": "已发信号：超出 ±2 圈",
@@ -973,12 +984,6 @@ def plot_reliability_event_map(events: pd.DataFrame) -> go.Figure:
         "multi_rain_phase": "triangle-up",
         "start_or_restart": "square",
         "clean_or_other": "circle",
-    }
-    reason_labels = {
-        "race_control_adjacent": "赛会控制相邻",
-        "multi_rain_phase": "多阶段降雨",
-        "start_or_restart": "起步/重启相邻",
-        "clean_or_other": "单阶段或其他",
     }
     for outcome in ["signal_accurate", "signal_inaccurate", "abstain"]:
         subset = data[data["outcome"] == outcome]
@@ -997,7 +1002,9 @@ def plot_reliability_event_map(events: pd.DataFrame) -> go.Figure:
                     "symbol": [reason_symbols.get(value, "circle") for value in subset["reason_group"]],
                     "line": {"color": "#ffffff", "width": 0.8},
                 },
-                customdata=subset[["event_label", "source", "reason_group", "public_signal_error_laps"]],
+                customdata=subset[
+                    ["event_label", "source", "reason_label", "public_signal_error_laps"]
+                ],
                 hovertemplate=(
                     "%{customdata[0]}<br>"
                     "来源：%{customdata[1]}<br>"

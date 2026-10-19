@@ -4,7 +4,6 @@ import json
 import re
 from pathlib import Path
 
-
 EVENT_RULES = (
     ("NORMAL GRIP", "Normal grip", "dry_confirmation"),
     ("LOW GRIP", "Low grip", "wet_warning"),

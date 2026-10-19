@@ -7,7 +7,6 @@ import pandas as pd
 from .config import RESULTS_DIR
 from .evaluate_holdouts import evaluate_v24_state_machine_race, summarise_signal_coverage
 
-
 FASTF1_2021_CANDIDATES = ["Emilia Romagna", "Hungary"]
 
 

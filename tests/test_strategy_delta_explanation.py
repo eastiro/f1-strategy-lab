@@ -8,8 +8,9 @@
 - 输入缺列或圈数不对齐时给出明确错误，不静默填零。
 """
 
-import pandas as pd
 import unittest
+
+import pandas as pd
 
 from src.strategy_delta_explanation import (
     DeltaExplanationError,
@@ -38,10 +39,16 @@ def _make_laps(
     compound_delta + degradation + pit_delta + wet_penalty（baseline/fuel/adjustments 归零），
     因此候选减基准的差必然等于四项分解之和。
     """
+    def _default_degradation(lap: int, compound: str) -> float:
+        return 0.01 * lap * (1 if compound in ("SOFT", "MEDIUM") else 2)
+
+    def _default_wet_penalty(lap: int, compound: str) -> float:
+        return 0.0
+
     if degradation_fn is None:
-        degradation_fn = lambda lap, compound: 0.01 * lap * (1 if compound in ("SOFT", "MEDIUM") else 2)
+        degradation_fn = _default_degradation
     if wet_penalty_fn is None:
-        wet_penalty_fn = lambda lap, compound: 0.0
+        wet_penalty_fn = _default_wet_penalty
 
     rows = []
     for lap in range(1, total_laps + 1):

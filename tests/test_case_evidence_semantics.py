@@ -8,7 +8,6 @@ import pandas as pd
 from src.plots import plot_v2_track_state_evidence
 from src.v2_validation import V2_CASES, build_validation_report
 
-
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 STREAMLIT_APP = PROJECT_ROOT / "app" / "streamlit_app.py"
 

@@ -21,6 +21,17 @@ ignore = [
 
 [tool.ruff.lint.per-file-ignores]
 "tests/*" = ["F401", "F811"]
+# Streamlit entry points and scripts insert the project root into ``sys.path``
+# before importing ``src`` modules, so imports intentionally follow statements.
+"app/*" = ["E402"]
+"scripts/*" = ["E402"]
+"src/fastf1_five_season_runner.py" = ["E402"]
+# ``FiveSeasonDataMissing`` is part of the public display API and is referenced
+# by tests and the Streamlit app; renaming it would break those call sites.
+"src/five_season_display.py" = ["N818"]
+# Test names deliberately encode the A/B/C/D reading-path order so unittest's
+# alphabetical collection runs them in the documented narrative sequence.
+"tests/test_v4_reading_path.py" = ["N802"]
 
 [tool.coverage.run]
 source = ["src"]

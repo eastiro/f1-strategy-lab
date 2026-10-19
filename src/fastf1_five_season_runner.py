@@ -27,8 +27,6 @@ import argparse
 import time
 from pathlib import Path
 
-import pandas as pd
-
 # --- Network fix (Task 11) -------------------------------------------------
 # Execution-time finding (2026-07-23): the F1 livetiming *primary* host
 # (livetiming.formula1.com) returned HTTP 200 for 2021-2025 at scan time, so it
@@ -44,11 +42,10 @@ import pandas as pd
 # sandbox's egress IP; that block had lifted by execution time, which is why the
 # mirror was briefly needed and then reverted.
 import fastf1
-import fastf1._api as _fastf1_api
 import fastf1.req as _fastf1_req
+import pandas as pd
 
 # (No base_url override -- use the default primary host that works at scan time.)
-
 # --- Anti-hang fix (Task 11, 2026-07-23) ------------------------------------
 # FastF1 performs *every* HTTP request (GET and POST, cached or not) through
 # ``fastf1.req.Cache._cached_request`` (fastf1/req.py). That method forwards
@@ -92,12 +89,17 @@ def _patch_fastf1_request_timeout():
 
 _patch_fastf1_request_timeout()
 
-from .config import DATA_DIR, PROCESSED_DIR, RAW_DIR, RESULTS_DIR
+from .config import DATA_DIR, PROCESSED_DIR, RESULTS_DIR
 
 # Use the project's persistent cache (not FastF1's default TEMP cache) so the
 # audit is reproducible and reuses already-cached seasons (e.g. 2021). The
 # frozen scanner/adapter/evaluator read from this same cache at runtime.
-fastf1.Cache.enable_cache(DATA_DIR / "fastf1_cache")
+# ``enable_cache`` raises ``NotADirectoryError`` when the directory is absent,
+# and the cache is git-ignored, so a fresh clone would otherwise fail at import
+# time for every module that merely needs the constants below.
+_FASTF1_CACHE_DIR = DATA_DIR / "fastf1_cache"
+_FASTF1_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+fastf1.Cache.enable_cache(_FASTF1_CACHE_DIR)
 
 from .evaluate_holdouts import evaluate_v24_state_machine_race, summarise_signal_coverage
 from .fastf1_adapter import save_fastf1_bundle

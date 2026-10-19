@@ -9,7 +9,6 @@ import requests
 
 from .config import OPENF1_BASE_URL, RAW_DIR
 
-
 COUNTRY_ALIASES = {
     "great britain": "United Kingdom",
     "britain": "United Kingdom",

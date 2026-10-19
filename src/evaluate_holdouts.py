@@ -9,7 +9,6 @@ import pandas as pd
 from .config import PROCESSED_DIR, RAW_DIR, RESULTS_DIR
 from .openf1_client import make_race_slug
 from .strategy_model import build_wetness_from_weather
-from .weather_timing import map_timestamps_to_laps, prepare_driver_lap_timing
 from .v2_validation import (
     RaceCase,
     dry_track_confirmation_details,
@@ -18,6 +17,7 @@ from .v2_validation import (
     fresh_crossover_wetness,
     observed_wet_to_slick_transitions,
 )
+from .weather_timing import map_timestamps_to_laps, prepare_driver_lap_timing
 
 
 def rainfall_event_laps(

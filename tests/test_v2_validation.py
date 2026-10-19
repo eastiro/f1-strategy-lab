@@ -7,8 +7,14 @@ from unittest.mock import patch
 
 import pandas as pd
 
-from src.errors import CaseDataUnavailableError
 from src.config import PROCESSED_DIR
+from src.errors import CaseDataUnavailableError
+from src.evaluate_holdouts import summarise_signal_coverage
+from src.fastf1_adapter import build_stints_from_laps
+from src.fastf1_scanner import (
+    count_wet_to_slick_transitions as count_fastf1_wet_to_slick_transitions,
+)
+from src.scan_openf1_holdouts import count_wet_to_slick_transitions
 from src.strategy_model import (
     build_drying_scenarios,
     build_reconstructed_track_state,
@@ -16,11 +22,12 @@ from src.strategy_model import (
     build_wetness_from_weather,
     estimate_pace_residuals,
 )
-from src.v2_validation import V2_CASES, build_validation_metrics, build_validation_report, load_case_data
-from src.evaluate_holdouts import summarise_signal_coverage
-from src.scan_openf1_holdouts import count_wet_to_slick_transitions
-from src.fastf1_scanner import count_wet_to_slick_transitions as count_fastf1_wet_to_slick_transitions
-from src.fastf1_adapter import build_stints_from_laps
+from src.v2_validation import (
+    V2_CASES,
+    build_validation_metrics,
+    build_validation_report,
+    load_case_data,
+)
 
 
 class V2ValidationTests(unittest.TestCase):

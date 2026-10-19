@@ -10,8 +10,17 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from src.config import DEFAULT_COUNTRY, DEFAULT_YEAR, PROCESSED_DIR, RAW_DIR, RESEARCH_DIR, RESULTS_DIR
+from src.conclusion_summary import build_strategy_judgment
+from src.config import (
+    DEFAULT_COUNTRY,
+    DEFAULT_YEAR,
+    PROCESSED_DIR,
+    RAW_DIR,
+    RESEARCH_DIR,
+    RESULTS_DIR,
+)
 from src.errors import CaseDataUnavailableError
+from src.five_season_display import FiveSeasonDataMissing, load_five_season_audit
 from src.openf1_client import make_race_slug
 from src.plots import (
     plot_compound_comparison,
@@ -22,14 +31,15 @@ from src.plots import (
     plot_reliability_reason_counts,
     plot_scenario_breakdown,
     plot_sensitivity_heatmap,
-    plot_strategy_weather_timeline,
     plot_stint_timeline,
+    plot_strategy_weather_timeline,
     plot_v2_track_state_evidence,
     plot_weather_residual_comparison,
     plot_wetness_penalty,
     plot_wetness_sources,
 )
 from src.race_control import load_strategy_events
+from src.strategy_delta_explanation import build_delta_explanation
 from src.strategy_model import (
     COMPOUND_BASE_DELTA,
     COMPOUND_DEGRADATION,
@@ -45,7 +55,6 @@ from src.strategy_model import (
     intermediate_wear_exposure,
     simulate_strategy,
 )
-from src.weather_timing import prepare_driver_lap_timing
 from src.v2_trace import build_model_trace
 from src.v2_validation import (
     V2_CASES,
@@ -56,9 +65,7 @@ from src.v2_validation import (
     later_rainfall_phase_start,
 )
 from src.v3_reliability import build_reliability_events, summarize_reliability_events
-from src.five_season_display import FiveSeasonDataMissing, load_five_season_audit
-from src.conclusion_summary import build_strategy_judgment
-from src.strategy_delta_explanation import build_delta_explanation
+from src.weather_timing import prepare_driver_lap_timing
 
 DEFAULT_INTER_PIT = 28
 DEFAULT_SLICK_PIT = 40

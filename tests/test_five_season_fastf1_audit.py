@@ -26,8 +26,8 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import pandas as pd
 
-from src.fastf1_five_season_runner import EXPOSURE_LABELS, SEASONS, short_slug_name
 import scripts.build_five_season_report as report_builder
+from src.fastf1_five_season_runner import EXPOSURE_LABELS, SEASONS, short_slug_name
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RESULTS_DIR = os.path.join(PROJECT_ROOT, "reports", "results")

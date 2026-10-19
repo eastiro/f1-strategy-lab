@@ -1,5 +1,3 @@
-from __future__ import annotations
-
 """Cross-race validation helpers for the V2 research build.
 
 V1 is a retrospective Silverstone case study.  V2 deliberately distinguishes
@@ -7,13 +5,15 @@ between a completed-race reconstruction (which may use shared pace residuals)
 and a decision-time proxy (rainfall evidence available by that lap only).
 """
 
-from dataclasses import dataclass
+from __future__ import annotations
+
 import json
+from dataclasses import dataclass
 from pathlib import Path
 
 import pandas as pd
 
-from .config import PROCESSED_DIR, PROJECT_ROOT, RAW_DIR, RESULTS_DIR
+from .config import PROCESSED_DIR, RAW_DIR, RESULTS_DIR
 from .errors import CaseDataUnavailableError
 from .strategy_model import (
     COMPOUND_BASE_DELTA,
@@ -23,7 +23,6 @@ from .strategy_model import (
     build_wetness_from_weather,
     estimate_pace_residuals,
 )
-
 
 SLICK_COMPOUNDS = {"SOFT", "MEDIUM", "HARD"}
 WET_COMPOUNDS = {"INTERMEDIATE", "WET"}

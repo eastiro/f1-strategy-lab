@@ -11,10 +11,14 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from src.v2_validation import V2_CASES, build_case_track_state, build_validation_metrics, build_validation_report
 from src.config import RESEARCH_DIR, RESULTS_DIR
+from src.v2_validation import (
+    V2_CASES,
+    build_case_track_state,
+    build_validation_metrics,
+    build_validation_report,
+)
 from src.v3_reliability import build_reliability_events
-
 
 CASE_LABELS = {
     "silverstone_2024": "2024 British GP - Norris",
