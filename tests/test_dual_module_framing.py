@@ -12,9 +12,11 @@ They avoid re-implementing any model logic.
 from __future__ import annotations
 
 import unittest
+from pathlib import Path
 
-CHINESE_APP = "app/streamlit_app.py"
-ENGLISH_APP = "app/portfolio_app.py"
+REPO_ROOT = Path(__file__).resolve().parents[1]
+CHINESE_APP = REPO_ROOT / "app" / "streamlit_app.py"
+ENGLISH_APP = REPO_ROOT / "app" / "portfolio_app.py"
 
 
 def _read(path: str) -> str:

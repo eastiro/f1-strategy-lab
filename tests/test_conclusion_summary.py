@@ -20,7 +20,8 @@ import pandas as pd
 
 from src.conclusion_summary import build_strategy_judgment, describe_delta
 
-APP_PATH = "app/streamlit_app.py"
+REPO_ROOT = Path(__file__).resolve().parents[1]
+APP_PATH = REPO_ROOT / "app" / "streamlit_app.py"
 
 
 def _make_stint(start_lap: int) -> object:

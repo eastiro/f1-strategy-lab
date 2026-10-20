@@ -10,7 +10,8 @@ from __future__ import annotations
 import unittest
 from pathlib import Path
 
-APP_PATH = "app/streamlit_app.py"
+REPO_ROOT = Path(__file__).resolve().parents[1]
+APP_PATH = REPO_ROOT / "app" / "streamlit_app.py"
 
 try:
     import pandas as pd

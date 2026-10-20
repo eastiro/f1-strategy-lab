@@ -16,7 +16,8 @@ from src.five_season_display import (
     load_five_season_audit,
 )
 
-APP_PATH = "app/streamlit_app.py"
+REPO_ROOT = Path(__file__).resolve().parents[1]
+APP_PATH = REPO_ROOT / "app" / "streamlit_app.py"
 
 try:
     from streamlit.testing.v1 import AppTest

@@ -9,6 +9,7 @@ stays truthful (no team-causality claims, clean control cases).
 from __future__ import annotations
 
 import unittest
+from pathlib import Path
 
 from src.v2_trace import build_model_trace
 from src.v2_validation import V2_CASES, build_validation_report
@@ -20,7 +21,8 @@ try:
 except Exception:  # pragma: no cover - streamlit missing in some envs
     _HAS_APP_TEST = False
 
-APP_PATH = "app/streamlit_app.py"
+REPO_ROOT = Path(__file__).resolve().parents[1]
+APP_PATH = REPO_ROOT / "app" / "streamlit_app.py"
 CONTROL_CASE_ID = "zandvoort_2024_control"
 
 
