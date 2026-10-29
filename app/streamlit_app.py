@@ -231,7 +231,7 @@ st.markdown(
       .stApp { background: var(--paper); color: var(--ink); }
       .stAppHeader { display: none; }
       [data-testid="stHeaderActionElements"], [data-testid="stDeployButton"], [data-testid="stBaseButton-header"], #MainMenu, footer { display: none; }
-      .block-container { max-width: 1760px; padding: 2.6rem 2.4rem 5.5rem; }
+      .block-container { max-width: 1040px; margin-inline: auto; padding: 3.2rem 1.8rem 6rem; }
       h1, h2, h3, h4 { color: var(--ink) !important; letter-spacing: -.012em !important; text-wrap: balance; }
       h1 { font-size: 3.15rem !important; font-weight: 800 !important; line-height: 1 !important; }
       h2, h3 { padding-left: 0; margin-top: 2.6rem !important; }
@@ -302,6 +302,19 @@ st.markdown(
       .lab-rule-track::before { content: ""; position: absolute; left: 0; right: 0; top: -3px; height: 7px; background: repeating-linear-gradient(90deg, var(--rule-strong) 0 1px, transparent 1px 5.8%); opacity: .5; }
       .lab-rule-pin { position: absolute; top: 50%; width: 7px; height: 7px; margin: -3.5px 0 0 -3.5px; border-radius: 50%; background: var(--red); box-shadow: 0 0 0 3px rgba(200,16,46,.09); }
       .lab-rule-pin.ghost { background: var(--paper); border: 1.5px solid var(--rule-strong); box-shadow: none; }
+
+      /* ── reference pass: measure, hierarchy, tab rail ── */
+      h1 { font-size: 3.05rem !important; letter-spacing: -.04em !important; line-height: 1.02 !important; }
+      h2 { font-size: 1.5rem !important; line-height: 1.3 !important; margin-top: 2.1rem !important; letter-spacing: -.02em !important; }
+      h3 { font-size: 1.08rem !important; line-height: 1.4 !important; }
+      [data-testid="stMarkdownContainer"] p { max-width: 46em; font-size: .95rem; line-height: 1.78; }
+      .lab-note, .lab-boundary p, [data-testid="stCaptionContainer"] p { max-width: none; }
+      [data-testid="stTabs"] [data-baseweb="tab-list"] { border-bottom: 1px solid var(--rule); gap: 1.7rem; }
+      [data-testid="stTabs"] button { font-size: .84rem; letter-spacing: .01em; padding: .35rem 0 .6rem; }
+      [data-testid="stTabs"] button[aria-selected="true"] { font-weight: 700; }
+      [data-testid="stMetricValue"] { font-variant-numeric: tabular-nums; letter-spacing: -.03em; }
+      [data-testid="stExpander"] { border: 1px solid var(--rule) !important; border-radius: 2px !important; background: transparent !important; }
+      hr, [data-testid="stDivider"] { border-color: var(--rule) !important; }
 
       @media (max-width: 1100px) {
         .lab-module-strip { grid-template-columns: minmax(0,1fr) minmax(0,1fr); }
