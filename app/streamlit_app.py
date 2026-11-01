@@ -233,84 +233,84 @@ st.markdown(
       [data-testid="stHeaderActionElements"], [data-testid="stDeployButton"], [data-testid="stBaseButton-header"], #MainMenu, footer { display: none; }
       .block-container { max-width: 1040px; margin-inline: auto; padding: 3.2rem 1.8rem 6rem; }
       h1, h2, h3, h4 { color: var(--ink) !important; letter-spacing: -.012em !important; text-wrap: balance; }
-      h1 { font-size: 3.15rem !important; font-weight: 800 !important; line-height: 1 !important; }
+      h1 { font-size: 2.4rem !important; font-weight: 800 !important; line-height: 1 !important; }
       h2, h3 { padding-left: 0; margin-top: 2.6rem !important; }
-      h2 { font-size: 1.82rem !important; font-weight: 750 !important; }
-      h3 { font-size: 1.42rem !important; font-weight: 720 !important; letter-spacing: -.008em !important; }
-      h4 { font-size: 1.06rem !important; font-weight: 700 !important; }
-      [data-testid="stMarkdownContainer"] p { font-size: 1.01rem; line-height: 1.76; letter-spacing: .002em; color: var(--body); }
+      h2 { font-size: 2.4rem !important; font-weight: 750 !important; }
+      h3 { font-size: 1.05rem !important; font-weight: 720 !important; letter-spacing: -.008em !important; }
+      h4 { font-size: 1.05rem !important; font-weight: 700 !important; }
+      [data-testid="stMarkdownContainer"] p { font-size: 1.05rem; line-height: 1.76; letter-spacing: .002em; color: var(--body); }
 
       .lab-hero { margin: 0 0 2.1rem; }
-      .lab-kicker { display: flex; align-items: center; gap: .6rem; color: var(--red); font-family: var(--mono); font-size: .72rem; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; }
+      .lab-kicker { display: flex; align-items: center; gap: .6rem; color: var(--red); font-family: var(--mono); font-size: 0.78rem; font-weight: 600; letter-spacing: 0.01em; }
       .lab-kicker-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--red); }
-      .lab-version { margin-left: .15rem; padding: .1rem .42rem; border: 1px solid var(--rule-strong); border-radius: 2px; color: var(--muted); font-size: .66rem; letter-spacing: .08em; }
+      .lab-version { margin-left: .15rem; padding: .1rem .42rem; border: 1px solid var(--rule-strong); border-radius: 2px; color: var(--muted); font-size: 0.78rem; letter-spacing: 0.01em; }
       .lab-title-row { display: flex; align-items: baseline; justify-content: space-between; gap: 2rem; margin: 1.15rem 0 0; padding-bottom: 1.1rem; border-bottom: 1px solid var(--rule-strong); }
-      .lab-title { margin: 0; color: var(--ink); font-size: 3.15rem; font-weight: 800; line-height: .98; letter-spacing: -.028em; }
-      .lab-subtitle { color: var(--muted); font-family: var(--mono); font-size: .84rem; font-weight: 500; letter-spacing: .01em; white-space: nowrap; }
+      .lab-title { margin: 0; color: var(--ink); font-size: 2.4rem; font-weight: 800; line-height: .98; letter-spacing: -.028em; }
+      .lab-subtitle { color: var(--muted); font-family: var(--mono); font-size: 0.78rem; font-weight: 500; letter-spacing: .01em; white-space: nowrap; }
       .lab-module-strip { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,.82fr); gap: 0; border-bottom: 1px solid var(--rule); }
-      .lab-module { display: grid; grid-template-columns: 1.85rem 1fr; gap: .7rem; padding: 1.15rem 1.5rem 1.15rem 0; min-width: 0; }
+      .lab-module { display: block; padding: 1.15rem 1.5rem 1.15rem 0; min-width: 0; }
       .lab-module + .lab-module { padding-left: 1.5rem; border-left: 1px solid var(--rule); }
-      .lab-module-index { color: var(--faint); font-family: var(--mono); font-size: .76rem; font-weight: 500; padding-top: .1rem; }
-      .lab-module strong { display: block; color: var(--ink); font-size: 1rem; font-weight: 700; margin-bottom: .34rem; }
-      .lab-module span { display: block; color: var(--muted); font-size: .89rem; line-height: 1.62; }
+      .lab-module-index { color: var(--faint); font-family: var(--mono); font-size: 0.78rem; font-weight: 500; padding-top: .1rem; }
+      .lab-module strong { display: block; color: var(--ink); font-size: 1.05rem; font-weight: 700; margin-bottom: .34rem; }
+      .lab-module span { display: block; color: var(--muted); font-size: 0.9rem; line-height: 1.62; }
       .lab-module-divider { display: none; }
       .lab-boundary { display: flex; flex-direction: column; justify-content: center; padding: 1.15rem 0 1.15rem 1.5rem; border-left: 1px solid var(--rule); }
-      .lab-boundary strong { color: var(--teal); font-family: var(--mono); font-size: .7rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; margin-bottom: .4rem; }
-      .lab-boundary span { color: var(--muted); font-size: .87rem; line-height: 1.6; }
-      .lab-route { margin: 1.15rem 0 0; color: var(--muted); font-size: .87rem; line-height: 1.7; }
+      .lab-boundary strong { color: var(--teal); font-family: var(--mono); font-size: 0.78rem; font-weight: 600; letter-spacing: 0.01em; margin-bottom: .4rem; }
+      .lab-boundary span { color: var(--muted); font-size: 0.9rem; line-height: 1.6; }
+      .lab-route { margin: 1.15rem 0 0; color: var(--muted); font-size: 0.9rem; line-height: 1.7; }
       .lab-route b { color: var(--ink); font-weight: 650; white-space: nowrap; }
 
-      [data-testid="stMetric"] { background: var(--panel); border: 1px solid var(--rule); border-radius: 2px; padding: 1.05rem 1.15rem; min-height: 104px; box-shadow: none; }
-      [data-testid="stMetricLabel"] { color: var(--muted) !important; font-size: .82rem !important; font-weight: 550 !important; letter-spacing: .02em !important; }
-      [data-testid="stMetricLabel"] p { font-size: .82rem !important; }
-      [data-testid="stCaptionContainer"], [data-testid="stCaptionContainer"] p { color: var(--faint) !important; font-size: .86rem !important; line-height: 1.62 !important; opacity: 1 !important; }
-      [data-testid="stMetricValue"] { color: var(--ink); font-family: var(--mono); font-size: 1.95rem; font-weight: 600; font-variant-numeric: tabular-nums; letter-spacing: -.02em; }
-      [data-testid="stMetricDelta"] { font-family: var(--mono); font-size: .84rem; font-variant-numeric: tabular-nums; }
+      [data-testid="stMetric"] { background: var(--panel); border: 1px solid var(--rule); border-radius: 2px; padding: 1.05rem 1.15rem; min-height: 104px; }
+      [data-testid="stMetricLabel"] { color: var(--muted) !important; font-size: 0.78rem !important; font-weight: 550 !important; letter-spacing: .02em !important; }
+      [data-testid="stMetricLabel"] p { font-size: 0.78rem !important; }
+      [data-testid="stCaptionContainer"], [data-testid="stCaptionContainer"] p { color: var(--faint) !important; font-size: 0.9rem !important; line-height: 1.62 !important; opacity: 1 !important; }
+      [data-testid="stMetricValue"] { color: var(--ink); font-family: var(--mono); font-size: 2.4rem; font-weight: 600; font-variant-numeric: tabular-nums; letter-spacing: -.02em; }
+      [data-testid="stMetricDelta"] { font-family: var(--mono); font-size: 0.78rem; font-variant-numeric: tabular-nums; }
       [data-testid="stMarkdownContainer"] { color: var(--body); }
-      [data-testid="stDataFrame"] { background: var(--panel); border: 1px solid var(--rule); border-radius: 2px; overflow: hidden; box-shadow: none; }
-      [data-testid="stDataFrame"] [role="columnheader"] { font-family: var(--mono); font-size: .74rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
-      [data-testid="stPlotlyChart"] { background: var(--panel); border: 1px solid var(--rule); border-radius: 2px; overflow: hidden; box-shadow: none; }
+      [data-testid="stDataFrame"] { background: var(--panel); border: 1px solid var(--rule); border-radius: 2px; overflow: hidden; }
+      [data-testid="stDataFrame"] [role="columnheader"] { font-family: var(--mono); font-size: 0.78rem; letter-spacing: .06em; color: var(--muted); }
+      [data-testid="stPlotlyChart"] { background: var(--panel); border: 1px solid var(--rule); border-radius: 2px; overflow: hidden; }
       hr { border-color: var(--rule) !important; }
 
       [data-testid="stTabs"] > div > div:first-child { position: sticky; top: 0; z-index: 80; background: rgba(251,250,248,.95); backdrop-filter: saturate(180%) blur(12px); }
       [data-testid="stTabs"] [data-baseweb="tab-list"] { position: relative; gap: 1.9rem; min-height: 3rem; border-bottom: 1px solid var(--rule-strong); background: transparent; }
-      [data-testid="stTabs"] button { min-height: 3rem; padding: .55rem .02rem; color: var(--muted); font-size: .95rem; font-weight: 600; letter-spacing: -.005em !important; white-space: nowrap; }
+      [data-testid="stTabs"] button { min-height: 3rem; padding: .55rem .02rem; color: var(--muted); font-size: 0.9rem; font-weight: 600; letter-spacing: -.005em !important; white-space: nowrap; }
       [data-testid="stTabs"] button:hover { color: var(--ink); }
       [data-testid="stTabs"] button[aria-selected="true"] { color: var(--ink); font-weight: 700; }
       [data-testid="stTabs"] [data-baseweb="tab-highlight"] { background-color: var(--red); height: 2px; }
 
-      [data-testid="stAlert"] { border-radius: 2px; border: 1px solid var(--rule); border-left: 2px solid var(--teal); background: #f2f6f5; box-shadow: none; }
+      [data-testid="stAlert"] { border-radius: 2px; border: 1px solid var(--rule); border-left: 2px solid var(--teal); background: #f2f6f5; }
       [data-testid="stAlert"] p { line-height: 1.68; }
-      [data-testid="stExpander"] { border: 1px solid var(--rule) !important; border-radius: 2px !important; background: var(--panel); overflow: hidden; box-shadow: none !important; }
+      [data-testid="stExpander"] { border: 1px solid var(--rule) !important; border-radius: 2px !important; background: var(--panel); overflow: hidden; }
       [data-testid="stExpander"] summary { min-height: 2.9rem; }
-      [data-testid="stExpander"] summary p { color: var(--body) !important; font-size: .94rem !important; font-weight: 600 !important; }
+      [data-testid="stExpander"] summary p { color: var(--body) !important; font-size: 0.9rem !important; font-weight: 600 !important; }
       [data-testid="stExpander"] summary:hover { background: var(--panel-soft); }
 
-      [data-testid="stWidgetLabel"] p { color: var(--ink) !important; font-size: .88rem !important; font-weight: 600; letter-spacing: .01em; }
+      [data-testid="stWidgetLabel"] p { color: var(--ink) !important; font-size: 0.9rem !important; font-weight: 600; letter-spacing: .01em; }
       [data-baseweb="select"] > div, [data-baseweb="input"] > div { border-color: var(--rule-strong) !important; border-radius: 2px !important; background: var(--panel) !important; }
-      [data-baseweb="tag"] { background: var(--ink) !important; border-radius: 2px !important; font-family: var(--mono); font-size: .8rem; }
+      [data-baseweb="tag"] { background: var(--ink) !important; border-radius: 2px !important; font-family: var(--mono); font-size: 0.78rem; }
       section[data-testid="stSidebar"] { background: var(--panel-soft); border-right: 1px solid var(--rule); }
-      .stButton > button, .stDownloadButton > button { border-radius: 2px; border-color: var(--rule-strong); background: var(--panel); color: var(--ink); font-weight: 600; box-shadow: none; transition: border-color .15s ease, color .15s ease; }
+      .stButton > button, .stDownloadButton > button { border-radius: 2px; border-color: var(--rule-strong); background: var(--panel); color: var(--ink); font-weight: 600; transition: border-color .15s ease, color .15s ease; }
       .stButton > button:hover, .stDownloadButton > button:hover { border-color: var(--red); color: var(--red); background: var(--panel); }
       .stButton > button:focus-visible, .stDownloadButton > button:focus-visible { outline: 2px solid var(--red); outline-offset: 1px; }
-      [data-testid="stSlider"] [role="slider"] { box-shadow: none; }
+      [data-testid="stSlider"] [role="slider"] { }
       code, kbd, pre { font-family: var(--mono); }
 
       .lab-rule { display: flex; align-items: center; gap: 1.1rem; margin: 1.35rem 0 0; }
-      .lab-rule-meta { color: var(--faint); font-family: var(--mono); font-size: .68rem; font-weight: 500; letter-spacing: .14em; white-space: nowrap; }
+      .lab-rule-meta { color: var(--faint); font-family: var(--mono); font-size: 0.78rem; font-weight: 500; letter-spacing: 0.01em; white-space: nowrap; }
       .lab-rule-track { position: relative; flex: 1; height: 1px; background: var(--rule-strong); }
-      .lab-rule-track::before { content: ""; position: absolute; left: 0; right: 0; top: -3px; height: 7px; background: repeating-linear-gradient(90deg, var(--rule-strong) 0 1px, transparent 1px 5.8%); opacity: .5; }
-      .lab-rule-pin { position: absolute; top: 50%; width: 7px; height: 7px; margin: -3.5px 0 0 -3.5px; border-radius: 50%; background: var(--red); box-shadow: 0 0 0 3px rgba(200,16,46,.09); }
-      .lab-rule-pin.ghost { background: var(--paper); border: 1.5px solid var(--rule-strong); box-shadow: none; }
+      .lab-rule-track::before { content: ""; position: absolute; left: 0; right: 0; top: -3px; height: 7px; opacity: .5; }
+      .lab-rule-pin { position: absolute; top: 50%; width: 7px; height: 7px; margin: -3.5px 0 0 -3.5px; border-radius: 50%; background: var(--red); }
+      .lab-rule-pin.ghost { background: var(--paper); border: 1.5px solid var(--rule-strong); }
 
       /* ── reference pass: measure, hierarchy, tab rail ── */
-      h1 { font-size: 3.05rem !important; letter-spacing: -.04em !important; line-height: 1.02 !important; }
-      h2 { font-size: 1.5rem !important; line-height: 1.3 !important; margin-top: 2.1rem !important; letter-spacing: -.02em !important; }
-      h3 { font-size: 1.08rem !important; line-height: 1.4 !important; }
-      [data-testid="stMarkdownContainer"] p { max-width: 46em; font-size: .95rem; line-height: 1.78; }
+      h1 { font-size: 2.4rem !important; letter-spacing: -.04em !important; line-height: 1.02 !important; }
+      h2 { font-size: 1.05rem !important; line-height: 1.3 !important; margin-top: 2.1rem !important; letter-spacing: -.02em !important; }
+      h3 { font-size: 1.05rem !important; line-height: 1.4 !important; }
+      [data-testid="stMarkdownContainer"] p { max-width: 46em; font-size: 0.9rem; line-height: 1.78; }
       .lab-note, .lab-boundary p, [data-testid="stCaptionContainer"] p { max-width: none; }
       [data-testid="stTabs"] [data-baseweb="tab-list"] { border-bottom: 1px solid var(--rule); gap: 1.7rem; }
-      [data-testid="stTabs"] button { font-size: .84rem; letter-spacing: .01em; padding: .35rem 0 .6rem; }
+      [data-testid="stTabs"] button { font-size: 0.78rem; letter-spacing: .01em; padding: .35rem 0 .6rem; }
       [data-testid="stTabs"] button[aria-selected="true"] { font-weight: 700; }
       [data-testid="stMetricValue"] { font-variant-numeric: tabular-nums; letter-spacing: -.03em; }
       [data-testid="stExpander"] { border: 1px solid var(--rule) !important; border-radius: 2px !important; background: transparent !important; }
@@ -323,17 +323,17 @@ st.markdown(
       @media (max-width: 900px) {
         .block-container { padding: 1.5rem 1.1rem 4rem; }
         .lab-title-row { align-items: start; flex-direction: column; gap: .5rem; margin-top: .9rem; }
-        .lab-title { font-size: 2.3rem; }
-        .lab-subtitle { font-size: .78rem; white-space: normal; }
+        .lab-title { font-size: 2.4rem; }
+        .lab-subtitle { font-size: 0.78rem; white-space: normal; }
         .lab-module-strip { grid-template-columns: 1fr; }
         .lab-module { padding: .9rem 0; }
         .lab-module + .lab-module { padding-left: 0; border-left: 0; border-top: 1px solid var(--rule); }
         .lab-boundary { grid-column: auto; padding: .9rem 0; }
-        .lab-route { font-size: .86rem; }
+        .lab-route { font-size: 0.9rem; }
         [data-testid="stTabs"] [data-baseweb="tab-list"] { gap: 0; justify-content: space-between; overflow-x: auto; }
-        [data-testid="stTabs"] button { flex: 1 0 auto; min-width: 0; padding-left: .3rem; padding-right: .3rem; font-size: .86rem; }
-        h1 { font-size: 2.35rem !important; }
-        h3 { font-size: 1.28rem !important; }
+        [data-testid="stTabs"] button { flex: 1 0 auto; min-width: 0; padding-left: .3rem; padding-right: .3rem; font-size: 0.9rem; }
+        h1 { font-size: 2.4rem !important; }
+        h3 { font-size: 1.05rem !important; }
         [data-testid="stMetric"] { min-height: 96px; }
       }
 
@@ -344,27 +344,25 @@ st.markdown(
 st.markdown(
     """
     <section class="lab-hero">
-      <div class="lab-kicker"><span class="lab-kicker-dot"></span>F1 Strategy Research Lab <span class="lab-version">V4</span></div>
+      <div class="lab-kicker"><span class="lab-kicker-dot"></span>F1 Strategy Research Lab</div>
       <div class="lab-title-row">
         <h1 class="lab-title">F1 Strategy Lab</h1>
         <div class="lab-subtitle">2024 英国大奖赛 · Norris 最后一停 · 公开数据赛后研究</div>
       </div>
       <div class="lab-rule">
-        <span class="lab-rule-meta">SILVERSTONE · 52 LAPS</span>
+        <span class="lab-rule-meta">银石 · 52 圈</span>
         <div class="lab-rule-track">
           <span class="lab-rule-pin ghost" style="left:74.9%"></span>
           <span class="lab-rule-pin" style="left:76.9%"></span>
         </div>
-        <span class="lab-rule-meta">WET &rarr; DRY</span>
+        <span class="lab-rule-meta">湿 → 干</span>
       </div>
       <div class="lab-module-strip">
         <div class="lab-module">
-          <div class="lab-module-index">01</div>
           <div><strong>银石策略沙盒</strong><span>比较 Norris 最后一停的换胎圈数与干胎选择，并检查结论对干燥速度假设是否敏感。</span></div>
         </div>
         <div class="lab-module-divider"></div>
         <div class="lab-module">
-          <div class="lab-module-index">02</div>
           <div><strong>公开信号审计</strong><span>跨比赛检查公开信号何时可以发声、何时应该弃权，主动呈现方法的适用边界。</span></div>
         </div>
         <div class="lab-boundary"><strong>研究边界</strong><span>两块内容独立；审计不验证模拟器的物理模型，两块内容都不是通用实时决策系统。</span></div>
